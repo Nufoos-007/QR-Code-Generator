@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">React QR App</string>
+    <string name="title_activity_main">React QR App</string>
+    <string name="package_name">com.nufoos.qrapp</string>
+    <string name="custom_url_scheme">com.nufoos.qrapp</string>
+</resources>
