@@ -1,6 +1,6 @@
 # 🔳 QR Code Generator (React + TypeScript)
 
-A simple, fast, and free QR Code generator built using **React**, **TypeScript**, and **Vite** — deployed live on **Netlify**.
+A simple, fast, and free QR Code generator built using **React**, **TypeScript**, and **Vite** — deployed live on **Netlify**. And also available as android **apk**
 
 📱 **Android APK**  
 👉 [Download app-debug.apk](https://github.com/Nufoos-007/QR-Code-Generator/releases/download/apk-v1/app-debug.apk)
