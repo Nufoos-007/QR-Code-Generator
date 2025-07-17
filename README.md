@@ -1,36 +1,90 @@
-# 🔳 QR Code Generator (React + TypeScript)
+🔳 QR Code Generator (React + TypeScript)
 
-A simple, fast, and free QR Code generator built using **React**, **TypeScript**, and **Vite** — deployed live on **Netlify**. And also available as android **APK!**
+A simple, fast, and free QR Code generator built using React, TypeScript, and Vite — deployed live on Netlify, and now also available as an Android APK!
 
-📱 **Android APK**  
-👉 [Download app-debug.apk](https://github.com/Nufoos-007/QR-Code-Generator/releases/download/apk-v1/app-debug.apk)
-
-🔗 **Live Demo**  
-👉 https://qr-codegeneratorfree.netlify.app
 
 ---
 
-## 🚀 Features
+🔗 Links
 
-- ✅ Generate QR codes instantly from text
-- 🎨 Minimal and responsive UI
-- 🧠 Built with TypeScript + Vite
-- 🌐 Deployed via Netlify
+🔗 Web App: qr-codegeneratorfree.netlify.app
 
-## 🛠 Tech Stack
+📱 Android APK: Download app-debug.apk
 
-- **React** (with hooks)
-- **TypeScript**
-- **Vite**
-- **qrcode.react** (QR rendering)
-- **Netlify** (hosting)
+
 
 ---
 
-## 🧪 Run Locally
+🚀 Features
 
-```bash
-git clone https://github.com/nufoos-007/qr-code-generator.git
-cd qr-code-generator
+✅ Generate QR codes instantly from text
+
+🎨 Minimal and responsive UI
+
+🧠 Built with TypeScript + Vite
+
+🌐 Deployed via Netlify
+
+📲 Android-ready (Capacitor build)
+
+
+
+---
+
+🛠️ Tech Stack
+
+React (with hooks)
+
+TypeScript
+
+Vite
+
+qrcode.react (QR rendering)
+
+Netlify (Web Hosting)
+
+CapacitorJS (Android APK build)
+
+
+
+---
+
+🧪 Run Locally
+
+git clone https://github.com/Nufoos-007/QR-Code-Generator.git
+cd QR-Code-Generator
 npm install
 npm run dev
+
+
+---
+
+📱 Build APK for Android
+
+npm install --save @capacitor/core @capacitor/cli @capacitor/android
+npx cap init "React QR App" com.nufoos.qrapp
+npm run build
+npx cap add android
+npx cap copy
+npx cap open android
+
+Then build your APK from Android Studio:
+
+Open the project in Android Studio
+
+Use Build > Build APK or Build Bundle(s) / APK(s)
+
+Find APK in android/app/build/outputs/apk/debug/app-debug.apk
+
+
+
+---
+
+🎉 Done
+
+Built by Nufoos-007
+
+> This app works fully offline and is available for Android too!
+
+
+
