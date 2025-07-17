@@ -2,6 +2,9 @@
 
 A simple, fast, and free QR Code generator built using **React**, **TypeScript**, and **Vite** — deployed live on **Netlify**.
 
+📱 **Android APK**  
+👉 [Download app-debug.apk](https://github.com/nufoos-007/qr-code-generator/releases/download/v1.0.0/app-debug.apk)
+
 🔗 **Live Demo**  
 👉 https://qr-codegeneratorfree.netlify.app
 
