@@ -1,90 +1,42 @@
-🔳 QR Code Generator (React + TypeScript)
+# 🔳 QR Code Generator (React + TypeScript)
 
-A simple, fast, and free QR Code generator built using React, TypeScript, and Vite — deployed live on Netlify, and now also available as an Android APK!
-
-
----
-
-🔗 Links
-
-🔗 Web App: qr-codegeneratorfree.netlify.app
-
-📱 Android APK: Download app-debug.apk
-
-
+A simple, fast, and free QR Code generator built using **React**, **TypeScript**, and **Vite** — deployed live on **Netlify** and also available as an **Android APK**.
 
 ---
 
-🚀 Features
+## 🔗 Live Demo & Download
 
-✅ Generate QR codes instantly from text
-
-🎨 Minimal and responsive UI
-
-🧠 Built with TypeScript + Vite
-
-🌐 Deployed via Netlify
-
-📲 Android-ready (Capacitor build)
-
-
+- 🌐 Web App: [qr-codegeneratorfree.netlify.app](https://qr-codegeneratorfree.netlify.app)
+- 📱 Android APK: [Download QR-Gen](https://github.com/Nufoos-007/QR-Code-Generator/releases/download/apk-v1/app-debug.apk)
 
 ---
 
-🛠️ Tech Stack
+## 🚀 Features
 
-React (with hooks)
-
-TypeScript
-
-Vite
-
-qrcode.react (QR rendering)
-
-Netlify (Web Hosting)
-
-CapacitorJS (Android APK build)
-
-
+- ✅ Generate QR codes instantly from text
+- 📱 Android-compatible build
+- 🎨 Clean and responsive UI
+- ⚡ Powered by Vite + React
+- 🧠 Written in TypeScript
+- ☁️ Deployed on Netlify
 
 ---
 
-🧪 Run Locally
+## 🛠 Tech Stack
 
+- **React** (with hooks)
+- **TypeScript**
+- **Vite**
+- **qrcode.react** (QR rendering)
+- **CapacitorJS** (Android build)
+- **Netlify** (Web deployment)
+
+---
+
+## 🧪 Run Locally
+
+```bash
 git clone https://github.com/Nufoos-007/QR-Code-Generator.git
 cd QR-Code-Generator
 npm install
 npm run dev
-
-
----
-
-📱 Build APK for Android
-
-npm install --save @capacitor/core @capacitor/cli @capacitor/android
-npx cap init "React QR App" com.nufoos.qrapp
-npm run build
-npx cap add android
-npx cap copy
-npx cap open android
-
-Then build your APK from Android Studio:
-
-Open the project in Android Studio
-
-Use Build > Build APK or Build Bundle(s) / APK(s)
-
-Find APK in android/app/build/outputs/apk/debug/app-debug.apk
-
-
-
----
-
-🎉 Done
-
-Built by Nufoos-007
-
-> This app works fully offline and is available for Android too!
-
-
-
